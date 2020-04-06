@@ -1,2 +1,3 @@
 # vvss
-vvss noobies
+George Codreanu
+George Camilar
