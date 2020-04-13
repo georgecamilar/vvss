@@ -52,6 +52,6 @@ class PaymentTest {
 
     @Test
     void testToString() {
-        assert(true);
+        assertEquals("1,Card,20.5", payment.toString());
     }
 }
