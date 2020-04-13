@@ -23,10 +23,6 @@ public class PaymentRepositoryTest {
     }
 
     @Test
-    void getPayments() {
-    }
-
-    @Test
     void addPayment() {
         Integer initialSize = repository.getAll().size();
         Payment payment = new Payment(4, Cash, 15d);
